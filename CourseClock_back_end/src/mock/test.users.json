@@ -1,0 +1,381 @@
+[{
+  "_id": {
+    "$oid": "657634ec892cb8d735cb5ad0"
+  },
+  "firstName": "Test",
+  "lastName": "Instructor",
+  "email": "testInstructor@umass.edu",
+  "course": [
+    {
+      "$oid": "657634ec892cb8d735cb5ad7"
+    }
+  ],
+  "role": 0,
+  "createdAt": {
+    "$date": "2023-12-10T22:00:12.707Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T22:00:12.958Z"
+  },
+  "__v": 1,
+  "schedule": {
+    "$oid": "657634ec892cb8d735cb5ad2"
+  }
+},
+{
+  "_id": {
+    "$oid": "65763505892cb8d735cb5adf"
+  },
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "testStudent1@umass.edu",
+  "course": [
+    {
+      "$oid": "657634ec892cb8d735cb5ad7"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-10T22:00:37.538Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-10T22:00:38.058Z"
+  },
+  "__v": 1,
+  "schedule": {
+    "$oid": "65763505892cb8d735cb5ae1"
+  }
+},
+{
+  "_id": {
+    "$oid": "657a9f200a413b9727c92831"
+  },
+  "firstName": "cs320",
+  "lastName": "teacher",
+  "email": "cs320@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    },
+    {
+      "$oid": "657aa0110a413b9727c9288b"
+    }
+  ],
+  "role": 0,
+  "createdAt": {
+    "$date": "2023-12-14T06:22:24.956Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:26:25.935Z"
+  },
+  "__v": 2,
+  "schedule": {
+    "$oid": "657a9f210a413b9727c92833"
+  }
+},
+{
+  "_id": {
+    "$oid": "657a9f860a413b9727c92853"
+  },
+  "firstName": "s1",
+  "lastName": "s1",
+  "email": "s1@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:24:06.336Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:24:06.499Z"
+  },
+  "__v": 1,
+  "schedule": {
+    "$oid": "657a9f860a413b9727c92855"
+  }
+},
+{
+  "_id": {
+    "$oid": "657a9fa70a413b9727c92863"
+  },
+  "firstName": "s2",
+  "lastName": "s2",
+  "email": "s2@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:24:39.271Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:24:39.435Z"
+  },
+  "__v": 1,
+  "schedule": {
+    "$oid": "657a9fa70a413b9727c92865"
+  }
+},
+{
+  "_id": {
+    "$oid": "657a9ffc0a413b9727c92873"
+  },
+  "firstName": "s3",
+  "lastName": "s3",
+  "email": "s3@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:26:04.400Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:26:04.567Z"
+  },
+  "__v": 1,
+  "schedule": {
+    "$oid": "657a9ffc0a413b9727c92875"
+  }
+},
+{
+  "_id": {
+    "$oid": "657aa0550a413b9727c92898"
+  },
+  "firstName": "123",
+  "lastName": "123",
+  "email": "s4@umass.edu",
+  "course": [
+    {
+      "$oid": "657aa0110a413b9727c9288b"
+    },
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:27:33.931Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:27:34.077Z"
+  },
+  "__v": 2,
+  "schedule": {
+    "$oid": "657aa0550a413b9727c9289a"
+  }
+},
+{
+  "_id": {
+    "$oid": "657aa0770a413b9727c928af"
+  },
+  "firstName": "123",
+  "lastName": "123",
+  "email": "s5@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    },
+    {
+      "$oid": "657aa0110a413b9727c9288b"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:28:07.936Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:28:08.121Z"
+  },
+  "__v": 2,
+  "schedule": {
+    "$oid": "657aa0770a413b9727c928b1"
+  }
+},
+{
+  "_id": {
+    "$oid": "657aa0910a413b9727c928c6"
+  },
+  "firstName": "123",
+  "lastName": "123",
+  "email": "s6@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:28:33.517Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:28:33.669Z"
+  },
+  "__v": 1,
+  "schedule": {
+    "$oid": "657aa0910a413b9727c928c8"
+  }
+},
+{
+  "_id": {
+    "$oid": "657aa1180a413b9727c928d6"
+  },
+  "firstName": "123",
+  "lastName": "123",
+  "email": "s7@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    },
+    {
+      "$oid": "657aa0110a413b9727c9288b"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:30:48.189Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:30:48.355Z"
+  },
+  "__v": 2,
+  "schedule": {
+    "$oid": "657aa1180a413b9727c928d8"
+  }
+},
+{
+  "_id": {
+    "$oid": "657aa1300a413b9727c928ed"
+  },
+  "firstName": "123",
+  "lastName": "123",
+  "email": "s8@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:31:12.957Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:31:13.106Z"
+  },
+  "__v": 1,
+  "schedule": {
+    "$oid": "657aa1300a413b9727c928ef"
+  }
+},
+{
+  "_id": {
+    "$oid": "657aa1890a413b9727c928fd"
+  },
+  "firstName": "123",
+  "lastName": "123",
+  "email": "s9@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:32:41.534Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:32:41.684Z"
+  },
+  "__v": 1,
+  "schedule": {
+    "$oid": "657aa1890a413b9727c928ff"
+  }
+},
+{
+  "_id": {
+    "$oid": "657aa1c30a413b9727c9290d"
+  },
+  "firstName": "123",
+  "lastName": "123",
+  "email": "s10@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    },
+    {
+      "$oid": "657aa0110a413b9727c9288b"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:33:39.276Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:33:39.434Z"
+  },
+  "__v": 2,
+  "schedule": {
+    "$oid": "657aa1c30a413b9727c9290f"
+  }
+},
+{
+  "_id": {
+    "$oid": "657aa40a0a413b9727c92ac3"
+  },
+  "firstName": "123",
+  "lastName": "123",
+  "email": "s11@umass.edu",
+  "course": [
+    {
+      "$oid": "657634ec892cb8d735cb5ad7"
+    },
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T06:43:22.403Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T06:43:37.900Z"
+  },
+  "__v": 2,
+  "schedule": {
+    "$oid": "657aa40a0a413b9727c92ac5"
+  }
+},
+{
+  "_id": {
+    "$oid": "657b24e90a413b9727c92b07"
+  },
+  "firstName": "123",
+  "lastName": "123",
+  "email": "s13@umass.edu",
+  "course": [
+    {
+      "$oid": "657a9f210a413b9727c92838"
+    },
+    {
+      "$oid": "657aa0110a413b9727c9288b"
+    }
+  ],
+  "role": 1,
+  "createdAt": {
+    "$date": "2023-12-14T15:53:13.451Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T15:55:15.048Z"
+  },
+  "__v": 2,
+  "schedule": {
+    "$oid": "657b24e90a413b9727c92b09"
+  }
+}]
