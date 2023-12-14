@@ -1,5 +1,4 @@
 # CourseClock
-​
 ## Team Members
 - Phong
 - Elena
@@ -62,7 +61,6 @@ In the terminal, run the following commands in order:
 - `npm run start` to start the server.
 ​
 ### Testing
-​
 #### Test Data
 We have test data that can be imported into MongoDB.
 ​
