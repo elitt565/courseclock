@@ -9,9 +9,8 @@
 - Aashi
 ​
 ## Overview of Code
-​
 ### Frontend
-​
+
 #### File Structure:
 - `src`:
   - `api`: All of the fetch logic is here.
@@ -41,9 +40,7 @@
   - `app.ts`: Define express.
 ​
 ## Instructions for Running the Application
-​
 ### Frontend
-​
 #### Dependencies
 - Backend must be set up and running.
 - Use VSCode.
@@ -53,7 +50,6 @@
 - Run `npm start` to start the frontend.
 ​
 ### Backend
-​
 #### Dependencies
 - MongoDB Community Server.
 - MongoDB Compass (use `mongodb://localhost:27017` for the connection).
@@ -78,12 +74,7 @@ To run tests:
 - Navigate to the `.rest` file under `./src/test`.
 - Click 'send request' above the test you want to run. The result will show on the right side of the screen.
 - The expected output is in the comments.
-​
-## GitHub Repositories
-​
-- Frontend: [CourseClock Frontend](https://github.com/elitt565/courseclock-frontend)
-- Backend: [CourseClock Backend](https://github.com/elitt565/courseclock-backend)
-​
+
 ## Attributions
 ​
 - Daypilot-lite library: For the instructor Recommended and Student Office Hour Calendar. [More Info](https://aspnet.daypilot.org/scheduler-lite/)
