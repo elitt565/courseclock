@@ -9,7 +9,6 @@
 ​
 ## Overview of Code
 ### Frontend
-
 #### File Structure:
 - `src`:
   - `api`: All of the fetch logic is here.
@@ -22,7 +21,6 @@
   - `index.tsx`: Define Authentication.
 ​
 ### Backend
-​
 #### File Structure:
 - `src`: contains all folders.
   - `config`: Contains the base configuration options for our backend.
@@ -74,7 +72,6 @@ To run tests:
 - The expected output is in the comments.
 
 ## Attributions
-​
 - Daypilot-lite library: For the instructor Recommended and Student Office Hour Calendar. [More Info](https://aspnet.daypilot.org/scheduler-lite/)
 - React-Schedule-Selector: For allowing students and instructors to select their schedules. [More Info](https://github.com/bibekg/react-schedule-selector)
 - Jwt-Auth: [More Info](https://github.com/gitdagray/react_jwt_auth/tree/main)
