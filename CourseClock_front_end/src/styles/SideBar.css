@@ -1,0 +1,131 @@
+.sidebar {
+  flex-direction: row-reverse;
+}
+.sidebar .drawerButton {
+  height: 100vh;
+}
+.sidebar .drawerOpen {
+  width: 240px;
+  height: 100vh;
+}
+.sidebar .drawerClosed {
+  width: 0px;
+  height: 100vh;
+}
+.sidebar .drawer {
+  order: -1;
+}
+.sidebar .drawer .MuiDrawer-paper {
+  width: 240px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.sidebar .drawer .stack {
+  margin-top: 40px;
+  color: #1D1C1D;
+  font-family: Poppins;
+}
+.sidebar .drawer .stack h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+.sidebar .drawer .stack .MuiListItem-root {
+  padding-top: 0px;
+}
+.sidebar .drawer .stack .MuiListItem-root .MuiTouchRipple-child {
+  background-color: #CAE5FF;
+}
+.sidebar .drawer .stack .MuiListItem-root .MuiListItemText-primary, .sidebar .drawer .stack .MuiListItem-root .MuiFormControlLabel-label {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6E6E6E;
+  line-height: 1.5;
+  padding-left: 10px;
+}
+.sidebar .drawer .stack .MuiListItem-root .Mui-selected {
+  background-color: #CAE5FF;
+}
+.sidebar .drawer .stack .MuiListItem-root .Mui-selected .MuiListItemText-primary {
+  color: #1D1C1D;
+  font-weight: 500;
+}
+.sidebar .drawer .stack .courseForm {
+  max-height: 30vh;
+  padding-left: 32px;
+  margin-right: 12px;
+  padding-top: 8px;
+  overflow-y: auto;
+  scrollbar-color: #ADADAD #DADADA;
+  scroll-padding-left: 10px;
+}
+.sidebar .drawer .stack .courseForm::-webkit-scrollbar {
+  width: 8px;
+}
+.sidebar .drawer .stack .courseForm::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border-radius: 10px;
+  background-color: rgba(218, 218, 218, 0.3);
+}
+.sidebar .drawer .stack .courseForm::-webkit-scrollbar-thumb:active {
+  background-color: rgba(173, 173, 173, 0.8);
+}
+.sidebar .drawer .stack .courseForm::-webkit-scrollbar-track {
+  display: none;
+}
+.sidebar .drawer .stack .addCourseButton {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #105EF5;
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.sidebar .drawer .stack .addCourseButton:hover {
+  background-color: #184BAE;
+}
+.sidebar .collapse {
+  order: -2;
+  color: #ADADAD 50%;
+}
+.sidebar .collapse:hover {
+  color: #105EF5;
+}
+.sidebar .collapse:active {
+  color: #184BAE;
+}
+.sidebar .outlet {
+  order: -3;
+  max-height: calc(100vh - 100px);
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-family: Poppins;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.05);
+  transition: width 0.3s ease;
+}
+.sidebar .outlet.drawerOpen {
+  width: calc(100vw - 270px);
+  height: auto;
+}
+.sidebar .outlet.drawerClosed {
+  width: calc(100vw - 30px);
+  height: auto;
+}/*# sourceMappingURL=SideBar.css.map */

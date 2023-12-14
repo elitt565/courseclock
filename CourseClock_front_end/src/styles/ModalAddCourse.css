@@ -1,0 +1,115 @@
+/* Modal Styles */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.overlay .modalContainer {
+  max-width: 600px;
+  width: 100%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+}
+.overlay .box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.overlay .box label {
+  font-size: 0.8em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #1D1C1D;
+  margin-bottom: 0.3em;
+  margin-top: -0.2em;
+}
+.overlay .box .box-input {
+  width: 24em;
+  height: 3em;
+  border-radius: 0.5em;
+  border: 1px solid #ADADAD;
+  background: #FFF;
+  text-indent: 1em;
+  transition: border-color 0.3s ease;
+}
+.overlay .box .box-input:focus {
+  margin: -1.2px;
+  border: 2px solid #105EF5;
+  outline: none;
+}
+.overlay .box .box-error {
+  font-size: 0.7em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: red;
+  margin-top: 0.2em;
+  margin-bottom: -1.75em;
+  padding-left: 0.5em;
+}
+.overlay .btn-container {
+  width: 24em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.overlay .btn-container button {
+  padding: 0.85em;
+  width: 45%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 0.9Sem;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.overlay .btn-container button[type=submit] {
+  background-color: #105EF5;
+}
+.overlay .btn-container button[type=submit]:active {
+  background-color: #184BAE;
+  box-shadow: 0 0.4em 0.4em rgba(0, 0, 0, 0.2) inset;
+}
+.overlay .btn-container button[type=submit]:disabled {
+  background-color: #5990FD;
+  cursor: not-allowed;
+}
+.overlay .btn-container button[type=submit]:not(:disabled):hover {
+  background-color: #184BAE;
+}
+.overlay .btn-container button[type=button] {
+  background-color: red;
+}
+.overlay .btn-container button[type=button]:active {
+  background-color: rgb(109, 20, 20);
+  box-shadow: 0 0.4em 0.4em rgba(0, 0, 0, 0.2) inset;
+}
+.overlay .btn-container button[type=button]:disabled {
+  background-color: rgb(204, 121, 121);
+  cursor: not-allowed;
+}
+.overlay .btn-container button[type=button]:not(:disabled):hover {
+  background-color: rgb(109, 20, 20);
+}/*# sourceMappingURL=ModalAddCourse.css.map */

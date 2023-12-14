@@ -1,0 +1,147 @@
+@import './Variables/Variables.scss';
+
+.sidebar{
+    flex-direction: row-reverse;
+    .drawerButton {
+        height: 100vh;
+    }
+
+    .drawerOpen {
+        width: 240px;
+        height: 100vh;
+    }
+
+    .drawerClosed {
+        width: 0px;
+        height: 100vh;
+    }
+
+    .drawer {
+        order: -1;
+        .MuiDrawer-paper {
+            width: 240px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+        }
+
+        .stack {
+            margin-top: 40px;
+            color: $black;
+            font-family: Poppins;
+
+            h2 {
+                
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 20px;
+                margin-left: 20px;
+                margin-bottom: 0px;
+            }
+    
+            .MuiListItem-root {
+                padding-top: 0px;
+                .MuiTouchRipple-child{
+                    background-color: $secondary;
+                }
+                .MuiListItemText-primary, .MuiFormControlLabel-label {
+                    font-family: inherit;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: $dark-grey;
+                    line-height: 1.5;
+                    padding-left: 10px;
+                }
+
+                .Mui-selected {
+                    background-color: $secondary;
+                    .MuiListItemText-primary{
+                        color: $black;
+                        font-weight: 500;
+                    }
+                }
+            }
+    
+            .courseForm {
+                max-height: 30vh;
+                padding-left: 32px;
+                margin-right: 12px;
+                padding-top: 8px;
+                overflow-y: auto;
+                scrollbar-color: $grey $light-grey;
+                scroll-padding-left: 10px;
+                &::-webkit-scrollbar {
+                    width: 8px;
+                }
+                &::-webkit-scrollbar-thumb {
+                    border-radius: 10px;
+                    border-radius: 10px;
+                    background-color: rgba($light-grey, 0.3);
+                    &:active{
+                        background-color: rgba($grey, 0.8);;
+                    }
+                }
+                &::-webkit-scrollbar-track {
+                    display: none;
+                }
+            }
+            
+            .addCourseButton{
+                margin-top: 20px;
+                margin-left: 20px;
+                margin-bottom: 20px;
+                width: 200px;
+                height: 40px;
+                border-radius: 10px;
+                background-color: $primary;
+                color: $solid-white;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: background-color 0.3s ease-in-out;
+                &:hover{
+                    background-color: $primary-darken;
+                }
+            }
+    
+            
+        }
+    }
+    .collapse{
+        order: -2;
+        color: $grey 50%;
+        &:hover{
+            color: $primary;
+        }
+        &:active{
+            color: $primary-darken;
+        }
+    }
+
+    .outlet {
+        order: -3;
+        max-height: calc(100vh - 100px);
+        margin-top: 70px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        font-family: Poppins;
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.05);
+        transition: width 0.3s ease;
+        &.drawerOpen{
+            width: calc(100vw - 270px);
+            height: auto;
+        }
+        &.drawerClosed{
+            width: calc(100vw - 30px);
+            height: auto;
+        }
+    }
+    
+}

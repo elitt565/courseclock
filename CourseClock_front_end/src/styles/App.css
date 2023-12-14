@@ -1,0 +1,24 @@
+.app {
+  background-color: #FAFBFD;
+}
+
+.btn {
+  position: relative;
+  display: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #105EF5;
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #184BAE;
+}/*# sourceMappingURL=App.css.map */

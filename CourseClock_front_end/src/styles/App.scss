@@ -1,0 +1,26 @@
+@import './Variables/Variables.scss';
+
+.app{
+    background-color: $background-color;
+}
+
+.btn{
+    position: relative;
+    display: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: $primary;
+    color: $solid-white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    &:hover{
+        background-color: $primary-darken;
+    }
+}

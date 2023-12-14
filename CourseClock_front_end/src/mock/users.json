@@ -1,0 +1,94 @@
+{
+	"users": [
+		{
+			"uid": "0",
+			"name": "Alice",
+			"email": "a@umass.edu",
+			"courses": ["CS250", "CS311", "CS383"],
+			"role": "0",
+			"created_at": "2021-01-15T06:31:15Z",
+			"updated_at": "2021-01-15T06:31:15Z"
+		},
+		{
+			"uid": "1",
+			"name": "Bob",
+			"email": "b@umass.edu",
+			"courses": ["CS250", "CS311"],
+			"role": "0",
+			"created_at": "2021-01-15T06:31:15Z",
+			"updated_at": "2021-01-15T06:31:15Z"
+		},
+		{
+			"uid": "2",
+			"name": "Cathy",
+			"email": "c@umass.edu",
+			"courses": ["CS311", "CS383"],
+			"role": "0",
+			"created_at": "2021-03-20T11:30:05Z",
+			"updated_at": "2021-03-20T11:30:05Z"
+		},
+		{
+			"uid": "3",
+			"name": "Devin",
+			"email": "d@umass.edu",
+			"courses": ["CS250"],
+			"role": "1",
+			"created_at": "2021-01-15T06:31:15Z",
+			"updated_at": "2021-01-15T06:31:15Z"
+		},
+		{
+			"uid": "4",
+			"name": "Elly",
+			"email": "e@umass.edu",
+			"courses": ["CS311", "CS383"],
+			"role": "1",
+			"created_at": "2021-02-25T10:03:46.000Z",
+			"updated_at": "2021-02-25T10:03:46.000Z"
+		},
+		{
+			"uid": "5",
+			"name": "Fiona",
+			"email": "f@umass.edu",
+			"courses": ["CS383"],
+			"role": "0",
+			"created_at": "2021-01-15T06:31:15Z",
+			"updated_at": "2021-01-15T06:31:15Z"
+		},
+		{
+			"uid": "6",
+			"name": "George",
+			"email": "g@umass.edu",
+			"courses": ["CS311"],
+			"role": "0",
+			"created_at": "2021-01-15T06:31:15Z",
+			"updated_at": "2021-01-15T06:31:15Z"
+		},
+		{
+			"uid": "7",
+			"name": "Harrie",
+			"email": "h@umass.edu",
+			"courses": ["CS250", "CS383"],
+			"role": "0",
+			"created_at": "2021-02-25T10:03:46.000Z",
+			"updated_at": "2021-02-25T10:03:46.000Z"
+		},
+		{
+			"uid": "8",
+			"name": "Ignacio",
+			"email": "i@umass.edu",
+			"courses": ["CS250", "CS311", "CS383"],
+			"role": "0",
+			"created_at": "2021-01-15T06:31:15Z",
+			"updated_at": "2021-01-15T06:31:15Z"
+		},
+		{
+			"uid": "9",
+			"name": "Jessie",
+			"email": "j@umass.edu",
+			"courses": ["CS250", "CS383"],
+			"role": "0",
+			"created_at": "2021-03-20T11:30:05Z",
+			"updated_at": "2021-03-20T11:30:05Z"
+		}
+	]
+}
