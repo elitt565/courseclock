@@ -81,4 +81,4 @@ To run tests:
 - Logger: [More Info](https://github.com/adautomendes/winston-example/tree/master)
 ​
 ## Limitations
-- Currently, there is no error handling and no way to view error statuses.
+- Currently, there is no error handling and no way to view error statuses.  There is also no middleware for role permissions
