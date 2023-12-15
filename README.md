@@ -69,7 +69,7 @@ To run tests:
 - Download the REST Client extension.
 - Navigate to the `.rest` file under `./src/test`.
 - Click 'send request' above the test you want to run. The result will show on the right side of the screen.
-- The expected output is in the comments.
+  - The tests may not work due to them being dependent on courses and ObjectIDs.  They may need to have values in the database and modified in order to work properly.   However, this doesn’t affect the project running independently
 
 ## Attributions
 - Daypilot-lite library: For the instructor Recommended and Student Office Hour Calendar. [More Info](https://aspnet.daypilot.org/scheduler-lite/)
