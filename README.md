@@ -29,7 +29,7 @@
   - `db`: Connect with database.
   - `interfaces`: Contains the interfaces for Mongo Object.
   - `middlewares`: Contains middleware.
-  - `mock`: Contains mock dat.
+  - `mock`: Contains mock data.
   - `models`: Has the models for all schemas.
   - `routes`: Contains routing information.
   - `test`: Has tests that we made.
